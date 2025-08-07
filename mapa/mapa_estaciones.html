@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e8743697f50063dcc07cd96b41421b95 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e8743697f50063dcc07cd96b41421b95" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e8743697f50063dcc07cd96b41421b95 = L.map(
+                "map_e8743697f50063dcc07cd96b41421b95",
+                {
+                    center: [10.36, -75.46],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a90370f08849492817b294801f43402b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a90370f08849492817b294801f43402b.addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+            var marker_e4595c81d4f02e6bdbb273bca5b22c44 = L.marker(
+                [10.38927887615285, -75.44958955857561],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_564392c1b04294e24bb3196a413f6879 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9dff5963fafba242d324e856d737cb0f = $(`<div id="html_9dff5963fafba242d324e856d737cb0f" style="width: 100.0%; height: 100.0%;"><strong>EDS EL MANANTIAL</strong><br>Producto: Diesel<br>Precio: $9,980</div>`)[0];
+                popup_564392c1b04294e24bb3196a413f6879.setContent(html_9dff5963fafba242d324e856d737cb0f);
+            
+        
+
+        marker_e4595c81d4f02e6bdbb273bca5b22c44.bindPopup(popup_564392c1b04294e24bb3196a413f6879)
+        ;
+
+        
+    
+    
+            marker_e4595c81d4f02e6bdbb273bca5b22c44.bindTooltip(
+                `<div>
+                     EDS EL MANANTIAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_170251f228882eeee2920d2b16629154 = L.marker(
+                [10.3658439339293, -75.50821718371202],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_654af34c48c2434fb7432fcddf50b91b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c8a92cdaaf1baa2cf2eb4264a1a837c = $(`<div id="html_6c8a92cdaaf1baa2cf2eb4264a1a837c" style="width: 100.0%; height: 100.0%;"><strong>EDS ASTILLEROS</strong><br>Producto: Diesel<br>Precio: $9,980</div>`)[0];
+                popup_654af34c48c2434fb7432fcddf50b91b.setContent(html_6c8a92cdaaf1baa2cf2eb4264a1a837c);
+            
+        
+
+        marker_170251f228882eeee2920d2b16629154.bindPopup(popup_654af34c48c2434fb7432fcddf50b91b)
+        ;
+
+        
+    
+    
+            marker_170251f228882eeee2920d2b16629154.bindTooltip(
+                `<div>
+                     EDS ASTILLEROS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d031d28bc9342a63b27ea2be61c4ce3b = L.marker(
+                [10.3954209822822, -75.44737407907388],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_8dd7058e8bbafffb7cd83ed66835c9ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63448817096ce2749b6ed179cf542261 = $(`<div id="html_63448817096ce2749b6ed179cf542261" style="width: 100.0%; height: 100.0%;"><strong>EDS VARIANTE OT</strong><br>Producto: Diesel<br>Precio: $9,990</div>`)[0];
+                popup_8dd7058e8bbafffb7cd83ed66835c9ac.setContent(html_63448817096ce2749b6ed179cf542261);
+            
+        
+
+        marker_d031d28bc9342a63b27ea2be61c4ce3b.bindPopup(popup_8dd7058e8bbafffb7cd83ed66835c9ac)
+        ;
+
+        
+    
+    
+            marker_d031d28bc9342a63b27ea2be61c4ce3b.bindTooltip(
+                `<div>
+                     EDS VARIANTE OT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1843b0e284b45aec4a2aa2fb4897a925 = L.marker(
+                [10.30741401085196, -75.48304010650284],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_84343873675a9e0da6b864a7ec765ad4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cb5539eaebea35775e1adc35f16ed1d = $(`<div id="html_5cb5539eaebea35775e1adc35f16ed1d" style="width: 100.0%; height: 100.0%;"><strong>EDS TERPEL MAMONAL-OT</strong><br>Producto: Diesel<br>Precio: $9,990</div>`)[0];
+                popup_84343873675a9e0da6b864a7ec765ad4.setContent(html_5cb5539eaebea35775e1adc35f16ed1d);
+            
+        
+
+        marker_1843b0e284b45aec4a2aa2fb4897a925.bindPopup(popup_84343873675a9e0da6b864a7ec765ad4)
+        ;
+
+        
+    
+    
+            marker_1843b0e284b45aec4a2aa2fb4897a925.bindTooltip(
+                `<div>
+                     EDS TERPEL MAMONAL-OT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c8d3aa6f5eba991e56ce6e88e4a38c9e = L.marker(
+                [10.3535964155594, -75.47595821707854],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_6f5bcbe2d9323a3de04652caa0092d27 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_007a0ab674b76c453ec6190f127427a4 = $(`<div id="html_007a0ab674b76c453ec6190f127427a4" style="width: 100.0%; height: 100.0%;"><strong>EDS PUNTA CANA</strong><br>Producto: Diesel<br>Precio: $10,000</div>`)[0];
+                popup_6f5bcbe2d9323a3de04652caa0092d27.setContent(html_007a0ab674b76c453ec6190f127427a4);
+            
+        
+
+        marker_c8d3aa6f5eba991e56ce6e88e4a38c9e.bindPopup(popup_6f5bcbe2d9323a3de04652caa0092d27)
+        ;
+
+        
+    
+    
+            marker_c8d3aa6f5eba991e56ce6e88e4a38c9e.bindTooltip(
+                `<div>
+                     EDS PUNTA CANA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_16a95f2a8dc44b0a686a236a33cd8a19 = L.marker(
+                [10.38830005728607, -75.51130432551989],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_fadd710dfd97d6853749461a5273e680 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_746e088178b8e80a7a9598d94954346f = $(`<div id="html_746e088178b8e80a7a9598d94954346f" style="width: 100.0%; height: 100.0%;"><strong>EDS TERPEL SANTA BARBARA CAR</strong><br>Producto: Diesel<br>Precio: $10,110</div>`)[0];
+                popup_fadd710dfd97d6853749461a5273e680.setContent(html_746e088178b8e80a7a9598d94954346f);
+            
+        
+
+        marker_16a95f2a8dc44b0a686a236a33cd8a19.bindPopup(popup_fadd710dfd97d6853749461a5273e680)
+        ;
+
+        
+    
+    
+            marker_16a95f2a8dc44b0a686a236a33cd8a19.bindTooltip(
+                `<div>
+                     EDS TERPEL SANTA BARBARA CAR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_30ba971cb59903c82cec15ba188eba74 = L.marker(
+                [10.42087142093806, -75.43115727116366],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_c301758fc244e8e68d0be77f6b17d12f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ecf0de22f8b1c09a277126f1729ca64 = $(`<div id="html_9ecf0de22f8b1c09a277126f1729ca64" style="width: 100.0%; height: 100.0%;"><strong>EDS  MATORRAL</strong><br>Producto: Diesel<br>Precio: $10,119</div>`)[0];
+                popup_c301758fc244e8e68d0be77f6b17d12f.setContent(html_9ecf0de22f8b1c09a277126f1729ca64);
+            
+        
+
+        marker_30ba971cb59903c82cec15ba188eba74.bindPopup(popup_c301758fc244e8e68d0be77f6b17d12f)
+        ;
+
+        
+    
+    
+            marker_30ba971cb59903c82cec15ba188eba74.bindTooltip(
+                `<div>
+                     EDS  MATORRAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9e9da3def450f4f7da2c5994ac82ed2f = L.marker(
+                [10.40217828234283, -75.45985554791311],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_71c427e99026b30b6332718351eabb54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed9165fb523e2acf3b42ec5d67a4558b = $(`<div id="html_ed9165fb523e2acf3b42ec5d67a4558b" style="width: 100.0%; height: 100.0%;"><strong>EDS DONA MANUELA</strong><br>Producto: Diesel<br>Precio: $10,120</div>`)[0];
+                popup_71c427e99026b30b6332718351eabb54.setContent(html_ed9165fb523e2acf3b42ec5d67a4558b);
+            
+        
+
+        marker_9e9da3def450f4f7da2c5994ac82ed2f.bindPopup(popup_71c427e99026b30b6332718351eabb54)
+        ;
+
+        
+    
+    
+            marker_9e9da3def450f4f7da2c5994ac82ed2f.bindTooltip(
+                `<div>
+                     EDS DONA MANUELA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b58eb331b2ac11a0d0f7d1cf25ca68ba = L.marker(
+                [10.40544607000886, -75.52093696238681],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_fd7b93de2a98d9685cd559c76a9857c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1232abbf84a405ef7bb64395572d32a7 = $(`<div id="html_1232abbf84a405ef7bb64395572d32a7" style="width: 100.0%; height: 100.0%;"><strong>EDS EL BOSQUE (ANTICRESIS)</strong><br>Producto: Diesel<br>Precio: $10,140</div>`)[0];
+                popup_fd7b93de2a98d9685cd559c76a9857c3.setContent(html_1232abbf84a405ef7bb64395572d32a7);
+            
+        
+
+        marker_b58eb331b2ac11a0d0f7d1cf25ca68ba.bindPopup(popup_fd7b93de2a98d9685cd559c76a9857c3)
+        ;
+
+        
+    
+    
+            marker_b58eb331b2ac11a0d0f7d1cf25ca68ba.bindTooltip(
+                `<div>
+                     EDS EL BOSQUE (ANTICRESIS)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f89ad6432e64b02822d4c87e645c5d24 = L.marker(
+                [10.3885543372117, -75.51630957674972],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_d32fdb1c8aea6ecb83cfd135782f47e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b978b0b3a50fc20f24c6c7000b19694d = $(`<div id="html_b978b0b3a50fc20f24c6c7000b19694d" style="width: 100.0%; height: 100.0%;"><strong>EDS LA HEROICA OT</strong><br>Producto: Diesel<br>Precio: $10,150</div>`)[0];
+                popup_d32fdb1c8aea6ecb83cfd135782f47e3.setContent(html_b978b0b3a50fc20f24c6c7000b19694d);
+            
+        
+
+        marker_f89ad6432e64b02822d4c87e645c5d24.bindPopup(popup_d32fdb1c8aea6ecb83cfd135782f47e3)
+        ;
+
+        
+    
+    
+            marker_f89ad6432e64b02822d4c87e645c5d24.bindTooltip(
+                `<div>
+                     EDS LA HEROICA OT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fef4699d7133f03f16031848d4f85265 = L.marker(
+                [10.26030568473039, -75.45673146107842],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_b40e3ab84c16a82e3c71b16852365c0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de98560a83896e5ae9377a1607e158cd = $(`<div id="html_de98560a83896e5ae9377a1607e158cd" style="width: 100.0%; height: 100.0%;"><strong>EDS CELESTE</strong><br>Producto: Diesel<br>Precio: $10,170</div>`)[0];
+                popup_b40e3ab84c16a82e3c71b16852365c0d.setContent(html_de98560a83896e5ae9377a1607e158cd);
+            
+        
+
+        marker_fef4699d7133f03f16031848d4f85265.bindPopup(popup_b40e3ab84c16a82e3c71b16852365c0d)
+        ;
+
+        
+    
+    
+            marker_fef4699d7133f03f16031848d4f85265.bindTooltip(
+                `<div>
+                     EDS CELESTE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b50926a3781674a7a99338949c56ae87 = L.marker(
+                [10.40491329176079, -75.5215705184898],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_727099fe04b08688fec708e289f35cd0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a044cd934dc77708439b2bfc12c066b4 = $(`<div id="html_a044cd934dc77708439b2bfc12c066b4" style="width: 100.0%; height: 100.0%;"><strong>EDS BAZURTO-OT</strong><br>Producto: Diesel<br>Precio: $10,170</div>`)[0];
+                popup_727099fe04b08688fec708e289f35cd0.setContent(html_a044cd934dc77708439b2bfc12c066b4);
+            
+        
+
+        marker_b50926a3781674a7a99338949c56ae87.bindPopup(popup_727099fe04b08688fec708e289f35cd0)
+        ;
+
+        
+    
+    
+            marker_b50926a3781674a7a99338949c56ae87.bindTooltip(
+                `<div>
+                     EDS BAZURTO-OT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a990a18e8f6e09922a6e2cc2e26b7cda = L.marker(
+                [10.29180850075525, -75.37689315550244],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_35c9a30a22187c3679e17658eee62bb1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea85daa120bce1f740c95a14c44a4d28 = $(`<div id="html_ea85daa120bce1f740c95a14c44a4d28" style="width: 100.0%; height: 100.0%;"><strong>EDS TERPEL MATAGUA AGUAS VIVAS</strong><br>Producto: Diesel<br>Precio: $10,199</div>`)[0];
+                popup_35c9a30a22187c3679e17658eee62bb1.setContent(html_ea85daa120bce1f740c95a14c44a4d28);
+            
+        
+
+        marker_a990a18e8f6e09922a6e2cc2e26b7cda.bindPopup(popup_35c9a30a22187c3679e17658eee62bb1)
+        ;
+
+        
+    
+    
+            marker_a990a18e8f6e09922a6e2cc2e26b7cda.bindTooltip(
+                `<div>
+                     EDS TERPEL MATAGUA AGUAS VIVAS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0b80922f8977d90c94410b5b8f18704b = L.marker(
+                [10.38453600215274, -75.46916870795037],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_07335f021802eba7816fcb3c3a3a92dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_120ecef2783c70126af515fab633ac55 = $(`<div id="html_120ecef2783c70126af515fab633ac55" style="width: 100.0%; height: 100.0%;"><strong>EDS SAN BUENAVENTURA</strong><br>Producto: Diesel<br>Precio: $10,230</div>`)[0];
+                popup_07335f021802eba7816fcb3c3a3a92dd.setContent(html_120ecef2783c70126af515fab633ac55);
+            
+        
+
+        marker_0b80922f8977d90c94410b5b8f18704b.bindPopup(popup_07335f021802eba7816fcb3c3a3a92dd)
+        ;
+
+        
+    
+    
+            marker_0b80922f8977d90c94410b5b8f18704b.bindTooltip(
+                `<div>
+                     EDS SAN BUENAVENTURA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_041d62bd0f4d105b4a2cfc7424879b25 = L.marker(
+                [10.38080758817213, -75.46465664976786],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_3963cc422464571bf71ff0a227d5c9ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cead6ad926f081849a01f65ca6d42751 = $(`<div id="html_cead6ad926f081849a01f65ca6d42751" style="width: 100.0%; height: 100.0%;"><strong>EDS TERNERA</strong><br>Producto: Diesel<br>Precio: $10,230</div>`)[0];
+                popup_3963cc422464571bf71ff0a227d5c9ca.setContent(html_cead6ad926f081849a01f65ca6d42751);
+            
+        
+
+        marker_041d62bd0f4d105b4a2cfc7424879b25.bindPopup(popup_3963cc422464571bf71ff0a227d5c9ca)
+        ;
+
+        
+    
+    
+            marker_041d62bd0f4d105b4a2cfc7424879b25.bindTooltip(
+                `<div>
+                     EDS TERNERA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_eac396c7e0f54030d54cf8c64a815924 = L.marker(
+                [10.49143622761772, -75.40812822093],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_aeb4e306007354c150d0efb5580d5fd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62e1f8818ad20a02df21493b9fb98119 = $(`<div id="html_62e1f8818ad20a02df21493b9fb98119" style="width: 100.0%; height: 100.0%;"><strong>EDS PAIBA</strong><br>Producto: Diesel<br>Precio: $10,249</div>`)[0];
+                popup_aeb4e306007354c150d0efb5580d5fd7.setContent(html_62e1f8818ad20a02df21493b9fb98119);
+            
+        
+
+        marker_eac396c7e0f54030d54cf8c64a815924.bindPopup(popup_aeb4e306007354c150d0efb5580d5fd7)
+        ;
+
+        
+    
+    
+            marker_eac396c7e0f54030d54cf8c64a815924.bindTooltip(
+                `<div>
+                     EDS PAIBA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_20beff7d902148736af3dd45023723e3 = L.marker(
+                [10.3652365810431, -75.50829134791367],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_02f982f07aefbce88df4d51f25f4b70d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d8542fad7377dcb5f9a31e776cfc675 = $(`<div id="html_4d8542fad7377dcb5f9a31e776cfc675" style="width: 100.0%; height: 100.0%;"><strong>EDS NAUTICA</strong><br>Producto: Diesel<br>Precio: $10,297</div>`)[0];
+                popup_02f982f07aefbce88df4d51f25f4b70d.setContent(html_4d8542fad7377dcb5f9a31e776cfc675);
+            
+        
+
+        marker_20beff7d902148736af3dd45023723e3.bindPopup(popup_02f982f07aefbce88df4d51f25f4b70d)
+        ;
+
+        
+    
+    
+            marker_20beff7d902148736af3dd45023723e3.bindTooltip(
+                `<div>
+                     EDS NAUTICA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_edf7ec8000ee225b4f8089b3c3183cb2 = L.marker(
+                [10.3252463537736, -75.42639965162303],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_18f19cec1ed0dd7e69ad354538f49821 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4389f814d8fe0d69a5fe2b8469570e11 = $(`<div id="html_4389f814d8fe0d69a5fe2b8469570e11" style="width: 100.0%; height: 100.0%;"><strong>EDS LA SUBIDA</strong><br>Producto: Diesel<br>Precio: $10,330</div>`)[0];
+                popup_18f19cec1ed0dd7e69ad354538f49821.setContent(html_4389f814d8fe0d69a5fe2b8469570e11);
+            
+        
+
+        marker_edf7ec8000ee225b4f8089b3c3183cb2.bindPopup(popup_18f19cec1ed0dd7e69ad354538f49821)
+        ;
+
+        
+    
+    
+            marker_edf7ec8000ee225b4f8089b3c3183cb2.bindTooltip(
+                `<div>
+                     EDS LA SUBIDA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_70b3bd9b39c5b6baed8dbed5db140307 = L.marker(
+                [6.263668937484935, -75.57025946515553],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_59ebe3e6c2f859ed7ce64424016e6c7d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_704ba0f260eeaed5f909ceb7cd5b80cc = $(`<div id="html_704ba0f260eeaed5f909ceb7cd5b80cc" style="width: 100.0%; height: 100.0%;"><strong>EDS TERPEL LAS MERCEDES</strong><br>Producto: Diesel<br>Precio: $10,430</div>`)[0];
+                popup_59ebe3e6c2f859ed7ce64424016e6c7d.setContent(html_704ba0f260eeaed5f909ceb7cd5b80cc);
+            
+        
+
+        marker_70b3bd9b39c5b6baed8dbed5db140307.bindPopup(popup_59ebe3e6c2f859ed7ce64424016e6c7d)
+        ;
+
+        
+    
+    
+            marker_70b3bd9b39c5b6baed8dbed5db140307.bindTooltip(
+                `<div>
+                     EDS TERPEL LAS MERCEDES
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e054cc2cf843bffaf6057721c9eecb6c = L.marker(
+                [10.42179874831214, -75.54154648989937],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_f9aa6213817451926a7a59bd1070e36c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d73e72efcaedb92d28d6e107a027df34 = $(`<div id="html_d73e72efcaedb92d28d6e107a027df34" style="width: 100.0%; height: 100.0%;"><strong>EDS PIE DEL CERRO</strong><br>Producto: Diesel<br>Precio: $10,430</div>`)[0];
+                popup_f9aa6213817451926a7a59bd1070e36c.setContent(html_d73e72efcaedb92d28d6e107a027df34);
+            
+        
+
+        marker_e054cc2cf843bffaf6057721c9eecb6c.bindPopup(popup_f9aa6213817451926a7a59bd1070e36c)
+        ;
+
+        
+    
+    
+            marker_e054cc2cf843bffaf6057721c9eecb6c.bindTooltip(
+                `<div>
+                     EDS PIE DEL CERRO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c19c02fd307c4db02d231a3dae7e9d7b = L.marker(
+                [10.40548227985468, -75.48627131820425],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_28804cf2e117c755b636e3acd6d7dd50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87b2895580115b4702280d3e6550a298 = $(`<div id="html_87b2895580115b4702280d3e6550a298" style="width: 100.0%; height: 100.0%;"><strong>EDS EL TIGRE</strong><br>Producto: Diesel<br>Precio: $10,430</div>`)[0];
+                popup_28804cf2e117c755b636e3acd6d7dd50.setContent(html_87b2895580115b4702280d3e6550a298);
+            
+        
+
+        marker_c19c02fd307c4db02d231a3dae7e9d7b.bindPopup(popup_28804cf2e117c755b636e3acd6d7dd50)
+        ;
+
+        
+    
+    
+            marker_c19c02fd307c4db02d231a3dae7e9d7b.bindTooltip(
+                `<div>
+                     EDS EL TIGRE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_00e55c1febed64352c4579af62ca968f = L.marker(
+                [10.3954209822822, -75.44737407907388],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_4974f7544702e4baaf03fe75286ea0d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8fadcc0f642bf7c96ff4af8837c8cd4 = $(`<div id="html_b8fadcc0f642bf7c96ff4af8837c8cd4" style="width: 100.0%; height: 100.0%;"><strong>EDS VARIANTE OT</strong><br>Producto: Corriente<br>Precio: $15,290</div>`)[0];
+                popup_4974f7544702e4baaf03fe75286ea0d8.setContent(html_b8fadcc0f642bf7c96ff4af8837c8cd4);
+            
+        
+
+        marker_00e55c1febed64352c4579af62ca968f.bindPopup(popup_4974f7544702e4baaf03fe75286ea0d8)
+        ;
+
+        
+    
+    
+            marker_00e55c1febed64352c4579af62ca968f.bindTooltip(
+                `<div>
+                     EDS VARIANTE OT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a2eef782d924c4093761a7ce3635b3d5 = L.marker(
+                [10.40217828234283, -75.45985554791311],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_70e98d50898f75d0d5d58829689884ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_286e8301d71a9c1e8e7f11787218cc2a = $(`<div id="html_286e8301d71a9c1e8e7f11787218cc2a" style="width: 100.0%; height: 100.0%;"><strong>EDS DONA MANUELA</strong><br>Producto: Corriente<br>Precio: $15,290</div>`)[0];
+                popup_70e98d50898f75d0d5d58829689884ab.setContent(html_286e8301d71a9c1e8e7f11787218cc2a);
+            
+        
+
+        marker_a2eef782d924c4093761a7ce3635b3d5.bindPopup(popup_70e98d50898f75d0d5d58829689884ab)
+        ;
+
+        
+    
+    
+            marker_a2eef782d924c4093761a7ce3635b3d5.bindTooltip(
+                `<div>
+                     EDS DONA MANUELA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dbb44b3293bee88953d08d1f961939ee = L.marker(
+                [10.42087142093806, -75.43115727116366],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_15728d813510abdaaedc8a08da358f41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_235ac3d60ed205a8cec5b6ae4f0f1c6c = $(`<div id="html_235ac3d60ed205a8cec5b6ae4f0f1c6c" style="width: 100.0%; height: 100.0%;"><strong>EDS  MATORRAL</strong><br>Producto: Corriente<br>Precio: $15,299</div>`)[0];
+                popup_15728d813510abdaaedc8a08da358f41.setContent(html_235ac3d60ed205a8cec5b6ae4f0f1c6c);
+            
+        
+
+        marker_dbb44b3293bee88953d08d1f961939ee.bindPopup(popup_15728d813510abdaaedc8a08da358f41)
+        ;
+
+        
+    
+    
+            marker_dbb44b3293bee88953d08d1f961939ee.bindTooltip(
+                `<div>
+                     EDS  MATORRAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5a37d17818d0696cb419a3b89d5ad699 = L.marker(
+                [10.40544607000886, -75.52093696238681],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_113847f6630348f0f98bd3d10e7ad1e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c99eeb5d7bf29f1b2413b5a7ead234f = $(`<div id="html_8c99eeb5d7bf29f1b2413b5a7ead234f" style="width: 100.0%; height: 100.0%;"><strong>EDS EL BOSQUE (ANTICRESIS)</strong><br>Producto: Corriente<br>Precio: $15,310</div>`)[0];
+                popup_113847f6630348f0f98bd3d10e7ad1e4.setContent(html_8c99eeb5d7bf29f1b2413b5a7ead234f);
+            
+        
+
+        marker_5a37d17818d0696cb419a3b89d5ad699.bindPopup(popup_113847f6630348f0f98bd3d10e7ad1e4)
+        ;
+
+        
+    
+    
+            marker_5a37d17818d0696cb419a3b89d5ad699.bindTooltip(
+                `<div>
+                     EDS EL BOSQUE (ANTICRESIS)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9c0dd1e57a77c80836b46e086df225d6 = L.marker(
+                [10.40491329176079, -75.5215705184898],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_07646be0350dce4843a97cc7a4800f9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3849c52dea8d97a78e3aa1464a2aa2fe = $(`<div id="html_3849c52dea8d97a78e3aa1464a2aa2fe" style="width: 100.0%; height: 100.0%;"><strong>EDS BAZURTO-OT</strong><br>Producto: Corriente<br>Precio: $15,310</div>`)[0];
+                popup_07646be0350dce4843a97cc7a4800f9f.setContent(html_3849c52dea8d97a78e3aa1464a2aa2fe);
+            
+        
+
+        marker_9c0dd1e57a77c80836b46e086df225d6.bindPopup(popup_07646be0350dce4843a97cc7a4800f9f)
+        ;
+
+        
+    
+    
+            marker_9c0dd1e57a77c80836b46e086df225d6.bindTooltip(
+                `<div>
+                     EDS BAZURTO-OT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b0e16c70acaf281a421b7a3fb69e331b = L.marker(
+                [10.3885543372117, -75.51630957674972],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_2154452a9ce34806da4df6031d8e4d50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e04a10efd2dee89ee36930d21f14276 = $(`<div id="html_2e04a10efd2dee89ee36930d21f14276" style="width: 100.0%; height: 100.0%;"><strong>EDS LA HEROICA OT</strong><br>Producto: Corriente<br>Precio: $15,310</div>`)[0];
+                popup_2154452a9ce34806da4df6031d8e4d50.setContent(html_2e04a10efd2dee89ee36930d21f14276);
+            
+        
+
+        marker_b0e16c70acaf281a421b7a3fb69e331b.bindPopup(popup_2154452a9ce34806da4df6031d8e4d50)
+        ;
+
+        
+    
+    
+            marker_b0e16c70acaf281a421b7a3fb69e331b.bindTooltip(
+                `<div>
+                     EDS LA HEROICA OT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6e499d8fe8f04818ad56e487c1dc83ea = L.marker(
+                [10.29180850075525, -75.37689315550244],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_574eb838f02420e8e06449355caf8fe2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_473e7afa5d8bf9eb352560d4f1595c90 = $(`<div id="html_473e7afa5d8bf9eb352560d4f1595c90" style="width: 100.0%; height: 100.0%;"><strong>EDS TERPEL MATAGUA AGUAS VIVAS</strong><br>Producto: Corriente<br>Precio: $15,349</div>`)[0];
+                popup_574eb838f02420e8e06449355caf8fe2.setContent(html_473e7afa5d8bf9eb352560d4f1595c90);
+            
+        
+
+        marker_6e499d8fe8f04818ad56e487c1dc83ea.bindPopup(popup_574eb838f02420e8e06449355caf8fe2)
+        ;
+
+        
+    
+    
+            marker_6e499d8fe8f04818ad56e487c1dc83ea.bindTooltip(
+                `<div>
+                     EDS TERPEL MATAGUA AGUAS VIVAS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_928181c6e944602046a063c8ee5de356 = L.marker(
+                [10.38453600215274, -75.46916870795037],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_12095491b618183350a7f24c3b864e6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2819704710b4332751b1ab4da326d64f = $(`<div id="html_2819704710b4332751b1ab4da326d64f" style="width: 100.0%; height: 100.0%;"><strong>EDS SAN BUENAVENTURA</strong><br>Producto: Corriente<br>Precio: $15,350</div>`)[0];
+                popup_12095491b618183350a7f24c3b864e6a.setContent(html_2819704710b4332751b1ab4da326d64f);
+            
+        
+
+        marker_928181c6e944602046a063c8ee5de356.bindPopup(popup_12095491b618183350a7f24c3b864e6a)
+        ;
+
+        
+    
+    
+            marker_928181c6e944602046a063c8ee5de356.bindTooltip(
+                `<div>
+                     EDS SAN BUENAVENTURA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_45f469a5e7288522ff9a7772c9d2fa87 = L.marker(
+                [10.38080758817213, -75.46465664976786],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_13535a93011fefdc9d3b405ae3dbd9e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00ac827dd1422d4a6b53bfd310165afd = $(`<div id="html_00ac827dd1422d4a6b53bfd310165afd" style="width: 100.0%; height: 100.0%;"><strong>EDS TERNERA</strong><br>Producto: Corriente<br>Precio: $15,350</div>`)[0];
+                popup_13535a93011fefdc9d3b405ae3dbd9e6.setContent(html_00ac827dd1422d4a6b53bfd310165afd);
+            
+        
+
+        marker_45f469a5e7288522ff9a7772c9d2fa87.bindPopup(popup_13535a93011fefdc9d3b405ae3dbd9e6)
+        ;
+
+        
+    
+    
+            marker_45f469a5e7288522ff9a7772c9d2fa87.bindTooltip(
+                `<div>
+                     EDS TERNERA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b77c3cce4e8a031c471e89009072857d = L.marker(
+                [10.3252463537736, -75.42639965162303],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_c53aeb4a7fc4112bf9213b398d6eba66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fee9ce11aefcfccf4c313c008782738 = $(`<div id="html_7fee9ce11aefcfccf4c313c008782738" style="width: 100.0%; height: 100.0%;"><strong>EDS LA SUBIDA</strong><br>Producto: Corriente<br>Precio: $15,350</div>`)[0];
+                popup_c53aeb4a7fc4112bf9213b398d6eba66.setContent(html_7fee9ce11aefcfccf4c313c008782738);
+            
+        
+
+        marker_b77c3cce4e8a031c471e89009072857d.bindPopup(popup_c53aeb4a7fc4112bf9213b398d6eba66)
+        ;
+
+        
+    
+    
+            marker_b77c3cce4e8a031c471e89009072857d.bindTooltip(
+                `<div>
+                     EDS LA SUBIDA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a5720f2a14da8b5e31fb3f67c7fd32b9 = L.marker(
+                [10.38927887615285, -75.44958955857561],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_f53765961ff033f8007186081f7306f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_291889c6126e3ef6e2b3e31fc37b5208 = $(`<div id="html_291889c6126e3ef6e2b3e31fc37b5208" style="width: 100.0%; height: 100.0%;"><strong>EDS EL MANANTIAL</strong><br>Producto: Corriente<br>Precio: $15,360</div>`)[0];
+                popup_f53765961ff033f8007186081f7306f3.setContent(html_291889c6126e3ef6e2b3e31fc37b5208);
+            
+        
+
+        marker_a5720f2a14da8b5e31fb3f67c7fd32b9.bindPopup(popup_f53765961ff033f8007186081f7306f3)
+        ;
+
+        
+    
+    
+            marker_a5720f2a14da8b5e31fb3f67c7fd32b9.bindTooltip(
+                `<div>
+                     EDS EL MANANTIAL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e7b32846d9eee96fd50e8abda8b7811a = L.marker(
+                [10.3658439339293, -75.50821718371202],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_256b6e9e53f1ceaf37ed12752dba2977 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b83bf6404d683541b2b17421ad9789e = $(`<div id="html_6b83bf6404d683541b2b17421ad9789e" style="width: 100.0%; height: 100.0%;"><strong>EDS ASTILLEROS</strong><br>Producto: Corriente<br>Precio: $15,390</div>`)[0];
+                popup_256b6e9e53f1ceaf37ed12752dba2977.setContent(html_6b83bf6404d683541b2b17421ad9789e);
+            
+        
+
+        marker_e7b32846d9eee96fd50e8abda8b7811a.bindPopup(popup_256b6e9e53f1ceaf37ed12752dba2977)
+        ;
+
+        
+    
+    
+            marker_e7b32846d9eee96fd50e8abda8b7811a.bindTooltip(
+                `<div>
+                     EDS ASTILLEROS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_57309b35f7894437c67a69796ade1b8f = L.marker(
+                [10.3535964155594, -75.47595821707854],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_2d8540e9b5170e827e7f786feeec786b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85fc6f7b3d249ae4c72685bbf68c2774 = $(`<div id="html_85fc6f7b3d249ae4c72685bbf68c2774" style="width: 100.0%; height: 100.0%;"><strong>EDS PUNTA CANA</strong><br>Producto: Corriente<br>Precio: $15,430</div>`)[0];
+                popup_2d8540e9b5170e827e7f786feeec786b.setContent(html_85fc6f7b3d249ae4c72685bbf68c2774);
+            
+        
+
+        marker_57309b35f7894437c67a69796ade1b8f.bindPopup(popup_2d8540e9b5170e827e7f786feeec786b)
+        ;
+
+        
+    
+    
+            marker_57309b35f7894437c67a69796ade1b8f.bindTooltip(
+                `<div>
+                     EDS PUNTA CANA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_dfe7b3a7ff6f81662d43820671e43174 = L.marker(
+                [10.30741401085196, -75.48304010650284],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_899a339f2c11d4cf048a4bff48c5c50c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b1a534ca10a8e769879368529ac78a1d = $(`<div id="html_b1a534ca10a8e769879368529ac78a1d" style="width: 100.0%; height: 100.0%;"><strong>EDS TERPEL MAMONAL-OT</strong><br>Producto: Corriente<br>Precio: $15,430</div>`)[0];
+                popup_899a339f2c11d4cf048a4bff48c5c50c.setContent(html_b1a534ca10a8e769879368529ac78a1d);
+            
+        
+
+        marker_dfe7b3a7ff6f81662d43820671e43174.bindPopup(popup_899a339f2c11d4cf048a4bff48c5c50c)
+        ;
+
+        
+    
+    
+            marker_dfe7b3a7ff6f81662d43820671e43174.bindTooltip(
+                `<div>
+                     EDS TERPEL MAMONAL-OT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3c12880195677442747fc836566d168f = L.marker(
+                [10.42179874831214, -75.54154648989937],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_5cd791b5c9b044a6b1719b99b215a61d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37dab707d84520338cf9b0dcc2301bed = $(`<div id="html_37dab707d84520338cf9b0dcc2301bed" style="width: 100.0%; height: 100.0%;"><strong>EDS PIE DEL CERRO</strong><br>Producto: Corriente<br>Precio: $15,510</div>`)[0];
+                popup_5cd791b5c9b044a6b1719b99b215a61d.setContent(html_37dab707d84520338cf9b0dcc2301bed);
+            
+        
+
+        marker_3c12880195677442747fc836566d168f.bindPopup(popup_5cd791b5c9b044a6b1719b99b215a61d)
+        ;
+
+        
+    
+    
+            marker_3c12880195677442747fc836566d168f.bindTooltip(
+                `<div>
+                     EDS PIE DEL CERRO
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e61c55f98d2c952e451a4be634fa4cf5 = L.marker(
+                [6.263668937484935, -75.57025946515553],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_b8e407a153647995d5c62f83d279f850 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b11e8c0853754acd90568e0a11e9cceb = $(`<div id="html_b11e8c0853754acd90568e0a11e9cceb" style="width: 100.0%; height: 100.0%;"><strong>EDS TERPEL LAS MERCEDES</strong><br>Producto: Corriente<br>Precio: $15,550</div>`)[0];
+                popup_b8e407a153647995d5c62f83d279f850.setContent(html_b11e8c0853754acd90568e0a11e9cceb);
+            
+        
+
+        marker_e61c55f98d2c952e451a4be634fa4cf5.bindPopup(popup_b8e407a153647995d5c62f83d279f850)
+        ;
+
+        
+    
+    
+            marker_e61c55f98d2c952e451a4be634fa4cf5.bindTooltip(
+                `<div>
+                     EDS TERPEL LAS MERCEDES
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_655360af43a53e58706e0b67022255d5 = L.marker(
+                [10.40548227985468, -75.48627131820425],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_39fec47effdcddd2f1f3a00dd0966dd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18bb351d71051eded04c6ba51db698bf = $(`<div id="html_18bb351d71051eded04c6ba51db698bf" style="width: 100.0%; height: 100.0%;"><strong>EDS EL TIGRE</strong><br>Producto: Corriente<br>Precio: $15,560</div>`)[0];
+                popup_39fec47effdcddd2f1f3a00dd0966dd1.setContent(html_18bb351d71051eded04c6ba51db698bf);
+            
+        
+
+        marker_655360af43a53e58706e0b67022255d5.bindPopup(popup_39fec47effdcddd2f1f3a00dd0966dd1)
+        ;
+
+        
+    
+    
+            marker_655360af43a53e58706e0b67022255d5.bindTooltip(
+                `<div>
+                     EDS EL TIGRE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bb566678a3d5d439036fd48555dd46e0 = L.marker(
+                [10.38830005728607, -75.51130432551989],
+                {
+}
+            ).addTo(map_e8743697f50063dcc07cd96b41421b95);
+        
+    
+        var popup_0df09bc2f1ffb3def12310abf25c34a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9f55f79eb981c3adc8d97e70fd4a6b5 = $(`<div id="html_a9f55f79eb981c3adc8d97e70fd4a6b5" style="width: 100.0%; height: 100.0%;"><strong>EDS TERPEL SANTA BARBARA CAR</strong><br>Producto: Corriente<br>Precio: $15,590</div>`)[0];
+                popup_0df09bc2f1ffb3def12310abf25c34a4.setContent(html_a9f55f79eb981c3adc8d97e70fd4a6b5);
+            
+        
+
+        marker_bb566678a3d5d439036fd48555dd46e0.bindPopup(popup_0df09bc2f1ffb3def12310abf25c34a4)
+        ;
+
+        
+    
+    
+            marker_bb566678a3d5d439036fd48555dd46e0.bindTooltip(
+                `<div>
+                     EDS TERPEL SANTA BARBARA CAR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
